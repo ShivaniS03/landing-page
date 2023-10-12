@@ -1,0 +1,153 @@
+body{
+    background-color: rgb(36, 0, 128);
+    color: white;
+font-family:  sans-serif;
+}
+/* navbar */
+ .container{
+    display: flex;
+}
+ul .li{
+    color: gray;
+}
+ h3{
+    margin-top: 50px;
+    margin-left: 25px;
+}
+li{
+    list-style: none;
+    margin: 20px;
+}
+ button{
+    height: 35px;
+    width:100px;
+    border-radius: 20px;
+    background-color: red;
+    border: none;
+    color: white;
+}
+ul{
+    display: flex;
+   margin: 20px;
+   margin-left: 400px;
+}
+ul .li a{
+    color: gray;
+} 
+ 
+/* about */
+
+ .container{
+    margin-top: 30px;
+    margin-left: 100px;
+    display: flex;
+}
+#about{
+    font-size: 55px;
+}
+.aboutP{
+    font-size:17px ;
+    word-spacing: 2px;
+}
+.form{
+    text-align: center;
+    height: 480px;
+    width: 350px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: white;
+    margin-left: 350px;
+}
+.form h2{
+    color: black;
+}
+form input{
+    height:25px;
+    width:250px;
+    border-radius: 25px;
+    margin-top: 20px;
+    border: 1px solid gray;
+    padding: 10px;
+}
+input{
+    margin-top: 30px;
+    
+}
+label{
+    margin-left: 10px;
+    font-size: 15px;
+    color: gray;
+} 
+.form button{
+    height:40px;
+    width:250px;
+    border-radius: 20px;
+    margin-top: 15px;
+    border: 1px solid gray;
+    padding: 10px;
+    background-color: blue;
+    border: none;
+} 
+span{
+    color: rgb(83, 200, 200);
+}
+ .p{
+    color: gray;
+    margin-top: 20px;
+}
+#check{
+    margin-top:30px;
+    pointer-events: none;
+    height:15px;
+    width:15px;
+    padding: 30px;
+    border-radius: 4px;
+}
+label{
+    color:#333;
+    cursor:pointer;
+}
+#check:checked{
+    accent-color: aqua;
+}
+#check:checked~label{
+    color: black;
+}
+
+.container .btn{
+    background-color: rgb(70, 70, 252);
+    
+}
+.container a{
+    color:white;
+    text-decoration: none;
+}
+
+#or {
+    color: gray;
+     position: relative;
+     display: inline-block;
+     margin: 20px 50px;
+ }
+ 
+ #or:before {
+     content: "";
+     border: 1px solid rgb(185, 183, 183);
+     position: absolute;
+     width: 850%;
+     top: 8px;
+     left: -125px;
+ }
+ 
+ #or:after {
+     content: "";
+     border: 1px solid rgb(185, 183, 183);
+     width: 850%;
+     position: absolute;
+     top: 8px;
+     right: -125px;
+ }
+
+
+ 
